@@ -50,7 +50,7 @@ Módulo de Filtros Previos: Definición de parámetros de búsqueda (modo pelíc
 Módulo de Interacción (Swipe): Interfaz gráfica interactiva para el deslizamiento de tarjetas con gestos táctiles, limitando el mazo a una cantidad optimizada de cartas por ronda.
 Sincronización en Tiempo Real: Comunicación bi-direccional entre el servidor y los móviles de la sala para detectar coincidencias al instante.
 Módulo de Resultados e Información: Pantalla de victoria (Match) que muestra las plataformas donde consumir el contenido.
-Compatibilidad Multiplataforma: Despliegue funcional en dispositivos móviles Android.
+Compatibilidad Multiplataforma: Despliegue funcional en dispositivos móviles Android e iOS.
 ### 1.6. Limitaciones y exclusiones
 
 Limitaciones
