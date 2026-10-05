@@ -82,7 +82,7 @@ El análisis de esta necesidad revela tres puntos de dolor fundamentales:
 * **Tiempo de búsqueda desproporcionado:** El tiempo invertido en seleccionar qué ver o a qué jugar llega a consumir una fracción significativa del tiempo libre total disponible.
 * **Falta de una solución transversal:** Las soluciones actuales suelen limitarse exclusivamente al cine o carecen de capacidades sincrónicas locales y transversales que incluyan videojuegos cooperativos/multijugador.
 
-###2.4
+### 2.4
 Costes de la mano de obra para el proyecto
 Estimando 3 meses de trabajo en jornadas de 8 horas diarias (480 h), sumándole un 30 % de coste de contratación de la Seguridad Social:
 
