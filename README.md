@@ -36,32 +36,51 @@ Diseñar, desarrollar e implementar una aplicación móvil multiplataforma que f
 #### 1.4.2. Objetivos específicos
 
 Analizar y definir los requisitos del sistema, identificando las necesidades clave de usabilidad (UX/UI) y sincronización en tiempo real.  
+
 Integrar la aplicación con APIs externas de catálogos de entretenimiento (como TMDB para cine/series e IGDB para videojuegos) para mantener información, portadas y metadatos actualizados.  
+
 Desarrollar una arquitectura de backend en tiempo real (utilizando WebSockets o bases de datos en tiempo real) capaz de gestionar salas simultáneas con baja latencia.  
+
 Implementar un flujo de entrada sin fricción, permitiendo la autenticación anónima para que los usuarios puedan unirse a las salas mediante código PIN o código QR sin necesidad de registros extensos.  
+
 Diseñar e implementar el algoritmo de asignación y cálculo de coincidencia (match), contemplando modalidades por unanimidad y por votación ponderada.  
+
 Realizar pruebas de integración, rendimiento y usabilidad en dispositivos con sistemas operativos Android e iOS para validar la experiencia de usuario.  
+
 ### 1.5. Alcance del proyecto
 
 El alcance del proyecto abarca las siguientes áreas funcionales y técnicas:
 
 Módulo de Gestión de Salas: Creación, configuración, cierre y unión a salas mediante código numérico único de 4 a 6 dígitos o escaneo de código QR.  
+
 Módulo de Filtros Previos: Definición de parámetros de búsqueda (modo película/juego, plataformas de streaming/consola disponibles, número de jugadores y géneros.  
+
 Módulo de Interacción (Swipe): Interfaz gráfica interactiva para el deslizamiento de tarjetas con gestos táctiles, limitando el mazo a una cantidad optimizada de cartas por ronda.  
+
 Sincronización en Tiempo Real: Comunicación bi-direccional entre el servidor y los móviles de la sala para detectar coincidencias al instante.  
+
 Módulo de Resultados e Información: Pantalla de victoria (Match) que muestra las plataformas donde consumir el contenido.  
+
 Compatibilidad Multiplataforma: Despliegue funcional en dispositivos móviles Android e iOS.  
 
 ### 1.6. Limitaciones y exclusiones
 
 Limitaciones Dependencia de APIs de terceros: La disponibilidad, precisión y actualización del catálogo de películas y videojuegos dependerá directamente de los tiempos de respuesta y límites de consulta (rate limits) de las APIs externas (TMDB e IGDB).   
+
 Conectividad a Internet: Aunque la sala se denomine "local" por la proximidad física de los usuarios, la sincronización requiere una conexión activa a Internet para la comunicación con la base de datos en la nube.    
+
 Exclusiones Reproducción de contenido directo: La aplicación no actuará como plataforma de reproductor de vídeo ni ejecutor de juegos (cloud gaming), su alcance se limita estrictamente a la facilitación de la decisión.   
+
 Derechos de propiedad intelectual: Las imágenes, portadas, logotipos y demás elementos identificativos de películas, series y videojuegos estarán sujetos a los derechos de sus respectivos propietarios y a las condiciones de uso establecidas por las fuentes utilizadas.  
+
 Cambios en la disponibilidad del contenido: La disponibilidad de películas, series y videojuegos en las diferentes plataformas podrá variar con el tiempo debido a cambios en los catálogos, acuerdos de distribución o condiciones de servicio de dichas plataformas.  
+
 Gestión de compras o suscripciones integradas: No se procesarán pagos dentro de la app ni se gestionarán las suscripciones de los usuarios a las plataformas de streaming.  
+
 Derechos de propiedad intelectual: Las imágenes, portadas, logotipos y demás elementos identificativos de películas, series y videojuegos estarán sujetos a los derechos de sus respectivos propietarios y a las condiciones de uso establecidas por las fuentes utilizadas.  
+
 Red social persistente: En esta versión del proyecto no se incluirá un sistema de mensajería interna, chat global ni listas de amigos permanentes entre salas.  
+
 
 ### 1.7. Estructura de la memoria
 
