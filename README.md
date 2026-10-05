@@ -12,6 +12,8 @@ El presente proyecto nace de la convergencia de estas dos realidades: la necesid
 ### 1.2. Problema o necesidad detectada
 El problema principal que aborda este proyecto es la parálisis por elección o choice overload que ocurre en reuniones sociales presenciales, ya sean parejas, grupos de amigos o familiares al intentar seleccionar una película, serie o videojuego para disfrutar en conjunto.
 
+La parálisis por elección (o choice overload) es la incapacidad para tomar una decisión cuando se presenta un exceso de opciones o información, provocando un bloqueo a las personas que lo sufren
+
 Esta problemática se manifiesta a través de los siguientes factores:
 
 * **Pérdida de tiempo:** Inversión de períodos prolongados (a menudo superiores a 30 minutos) navegando por los catálogos de distintas plataformas sin llegar a un acuerdo.
