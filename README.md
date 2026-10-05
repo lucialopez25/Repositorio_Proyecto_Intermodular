@@ -81,3 +81,26 @@ El análisis de esta necesidad revela tres puntos de dolor fundamentales:
 * **Sesgo de grupo y dominante:** En las discusiones abiertas, la decisión suele inclinarse hacia la persona más firme del grupo, dejando insatisfechos a otros integrantes.
 * **Tiempo de búsqueda desproporcionado:** El tiempo invertido en seleccionar qué ver o a qué jugar llega a consumir una fracción significativa del tiempo libre total disponible.
 * **Falta de una solución transversal:** Las soluciones actuales suelen limitarse exclusivamente al cine o carecen de capacidades sincrónicas locales y transversales que incluyan videojuegos cooperativos/multijugador.
+
+###2.4
+Costes de la mano de obra para el proyecto
+Estimando 3 meses de trabajo en jornadas de 8 horas diarias (480 h), sumándole un 30 % de coste de contratación de la Seguridad Social:
+
+Analista / Diseñador UI-UX. 210 horas a 15 €/hora * 1,3 de coste SS = 4.095 €
+Programador Multiplataforma (Fullstack). 225 horas a 17 €/hora * 1,3 de coste SS = 4.972,50 €
+QA / Tester de Software. 45 horas a 15 €/hora * 1,3 de coste SS = 877,50 €
+Subtotal Personal = 9.945 €
+
+**Costes técnicos asociados a herramientas y despliegue comercial:**
+**Licencias**
+Apple Developer Program |~99 € / año |Pago Anual |Requisito indispensable para publicar en la App Store en IOS
+Google Play Console |~$25 USD (~23 €) |Pago único |Para publicar en Google Play Store
+
+Infraestructura Cloud
+Firebase / Supabase: Cuentan con capas gratuitas amplias (Free Tier / Plan Spark). Para un MVP con tráfico inicial, el gasto mensual ronda entre 0 € y 30 €/mes.Cero coste de mantenimiento de servidores.
+
+**Costes operativos**
+Electricidad : paquete Gana Energia 24h -> 0,119€/KWh sin permanencia
+Fibra : paquete Orange Conecta Empresas: 50,90 €/mes, 1 Gb simétrico, IP estática, router de alto rendimiento, VPN entre sedes y backup 4G.
+
+
