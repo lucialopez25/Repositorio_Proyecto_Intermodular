@@ -49,7 +49,7 @@ Realizar pruebas de integración, rendimiento y usabilidad en dispositivos con s
 
 ### 1.5. Alcance del proyecto
 
-El alcance del proyecto abarca las siguientes áreas funcionales y técnicas:
+Para realizar el alcance del proyecto se utilizo la metodología de Análisis de Requisitos, la cual nos permitió identificar, clasificar y delimitar las áreas y técnicas que el sistema cubrirá, abarcando las siguientes áreas:
 
 Módulo de Gestión de Salas: Creación, configuración, cierre y unión a salas mediante código numérico único de 4 a 6 dígitos o escaneo de código QR.  
 
