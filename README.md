@@ -44,6 +44,7 @@ Diseño sin fricción de entrada (Zero-Friction UI): La tendencia en herramienta
 **4. Punto de Convergencia: El Nacimiento de CoSwipe**
 El proyecto CoSwipe se sitúa exactamente en la convergencia de estos tres niveles: adopta la madurez de los catálogos multimedia actuales (nivel Macro), aprovecha la familiaridad del patrón gestual swipe y la tecnología de sincronización en tiempo real (nivel Micro) para responder a las necesidades de interacción de los grupos sociales en entornos presenciales y virtuales (nivel Meso).
 
+
 ### 1.2. Problema o necesidad detectada
 En los encuentros de ocio compartido, ya sea en una reunión presencial en el salón o en un canal de voz de Discord, la tarea de elegir qué contenido ver o a qué videojuego jugar suele convertirse en un proceso lento de navegación por múltiples catálogos que termina por agotar el tiempo libre del grupo.
 
@@ -102,11 +103,43 @@ A partir de las carencias del mercado identificadas mediante la minería de rese
 
 
 ### 1.3. Propuesta de solución
-La solución propuesta consiste en el diseño y desarrollo de una aplicación móvil multiplataforma que automatiza el proceso de toma de decisiones en grupo.  
+Como respuesta a la parálisis por elección y a las barreras detectadas en las plataformas existentes, se propone el desarrollo de CoSwipe, una aplicación móvil multiplataforma orientada a automatizar y gamificar la toma de decisiones grupales de entretenimiento en tiempo real.
 
-El funcionamiento del sistema se basa en la creación de salas locales sincronizadas en tiempo real. El anfitrión crea una sala mediante un código único o código QR y configura unos filtros previos como el tipo de contenido y las plataformas activas. Los participantes se unen a la sala desde sus propios dispositivos móviles y comienzan a deslizar una lista limitada de opciones (Like hacia un lado, Pass hacia el otro).  
+CoSwipe transforma un proceso de negociación largo y conflictivo en una interacción ágil, imparcial y divertida, reduciendo el tiempo medio de elección de más de 30 minutos a menos de 3 minutos.
 
-Mediante un algoritmo de coincidencia (match), en el momento en que se detecta unanimidad (o la mayor puntuación ponderada), la aplicación detiene el proceso y muestra de forma destacada la opción elegida, indicando además la plataforma o medio en el que está disponible para su consumo inmediato.  
+**Flujo de Funcionamiento del Sistema**
+
+El funcionamiento de la aplicación se articula en tres etapas secuenciales diseñadas para eliminar cualquier punto de fricción durante la sesión:
+
+**1. Acceso instantáneo y configuración de la sala (Zero-Friction Onboarding):**
+
+El anfitrión (host) inicia la sesión en cuestión de segundos sin necesidad de crear una cuenta ni introducir credenciales. La aplicación genera una sala virtual asignando un código PIN único de 4 dígitos, un código QR y un enlace directo (deep link) listo para compartirse por canales como Discord o WhatsApp. Antes de dar paso a los participantes, el anfitrión ajusta filtros rápidos como el tipo de contenido (Cine, Series o Videojuegos) y las plataformas activas en el grupo (Netflix, Prime Video, Steam, Xbox Game Pass, etc.).
+
+**2. Votación gestual síncrona (Swipe Deck):**
+
+Los participantes se unen a la sala desde sus propios dispositivos móviles escaneando el código QR o introduciendo el PIN, accediendo de forma anónima e inmediata. Cada integrante recibe una baraja idéntica de tarjetas multimedia limitadas y filtradas. La navegación se basa en la mecánica gestual de deslizamiento:
+
+- Deslizar a la derecha (Swipe Right / Like): Indica interés por el título presentado.
+
+- Deslizar a la izquierda (Swipe Left / Pass): Descarta la opción.
+
+Las decisiones se procesan de forma individual y privada, protegiendo el voto de cada usuario para evitar la presión de grupo o el sesgo de dominancia.
+
+**3. Algoritmo de coincidencia en tiempo real (Match Engine):**
+
+A través de un motor de sincronización síncrono, el sistema evalúa los votos de los integrantes en directo. En el momento en que se detecta una coincidencia unánime (todos los miembros de la sala han deslizado a la derecha el mismo título), la interfaz interrumpe la votación y despliega una pantalla interactiva de Match. Esta pantalla muestra la opción ganadora de manera destacada e indica la plataforma o servicio exacto donde consumir el contenido de forma inmediata. Si la baraja finaliza sin una unanimidad absoluta, el sistema propone automáticamente la opción con mayor puntuación ponderada.
+
+**Pilares Clave de la Solución**
+
+- Acceso sin registro (0% fricción): Elimina el principal motivo de rechazo de la competencia (42% en el análisis de reseñas) al no exigir correos ni contraseñas. Unirse a una sala requiere menos de 5 segundos.
+
+- Catálogo multi-entretenimiento: Unifica en un mismo sistema cine, series y videojuegos cooperativos/multijugador, adaptándose tanto a reuniones en el salón como a canales de voz en servidores de Discord.
+
+- Votación a ciegas e imparcial: Las decisiones son confidenciales mientras se vota, lo que evita el sesgo de dominancia (que decida siempre la misma persona) y elimina la presión social dentro del grupo.
+
+- Sincronización síncrona en directo: Un motor en tiempo real evalúa los votos al instante, deteniendo la sesión de forma automatizada en cuanto existe consenso unánime.
+
+- Diseño optimizado en modo oscuro: Interfaz gráfica orientada al uso nocturno basada en la regla 60-30-10 (#0D0E12 fondo, #1A1C23 tarjetas, #7C3AED acento), reduciendo la fatiga visual y priorizando las carátulas e información esencial.
 
 ### 1.4. Objetivos del proyecto
 
