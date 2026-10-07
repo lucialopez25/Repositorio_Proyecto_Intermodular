@@ -39,10 +39,12 @@ Para determinar los objetivos específicos usamos  la metodología de desarrollo
 
 1. **Análisis y Diseño :** Diseñar un prototipo visual de todas las pantallas de la aplicación, incluido el login, apoyándose en un estudio comparativo (benchmarking) de aplicaciones similares y en un análisis de la curva de aprendizaje del usuario. Para esto apoyarnos en aplicaciones como Figma.
 2. **Tecnología :** Seleccionar el lenguaje de desarrollo más adecuado para nosotros (Dart o Kotlin) y aplicar una arquitectura MVC
-3. **Datos :** Diseñar la base de datos y analizar qué tipo de SGBD se adapta mejor al proyecto (por ejemplo, MongoDB frente a una base de datos relacional).
-4. **Servidor :** Analizar y seleccionar la capa de servidor más adecuada, teniendo en cuenta el acceso a datos, la sincronización de resultados en tiempo real entre usuarios y la protección de datos, especialmente en el login.
-5. **Implementación :** Implementar el algoritmo de coincidencia (match) ,la funcionalidad de elección(swipe) y  la gestión de salas sincronizadas.
-6. **Pruebas .** Pruebas, corrección de errores y versión final. 
+3. **Implementación :** de la interfaz: Implementar el algoritmo de coincidencia (match) y la funcionalidad de elección (swipe) sobre datos simulados.
+4. **Datos:** Diseñar la base de datos y analizar qué tipo de SGBD se adapta mejor al proyecto (por ejemplo, MongoDB frente a una base de datos relacional).
+5. **Servidor:** Analizar y seleccionar la capa de servidor más adecuada, teniendo en cuenta el acceso a datos, la sincronización de resultados en tiempo real entre usuarios y la protección de datos, especialmente en el login.
+6. **Integración:** Implementar la gestión de salas sincronizadas conectando la aplicación con la base de datos y el servidor.
+7. **Pruebas:** Pruebas, corrección de errores y versión final.
+   
 ### 1.5. Alcance del proyecto
 
 Para realizar el alcance del proyecto se utilizo la metodología de Análisis de Requisitos, la cual nos permitió identificar, clasificar y delimitar las áreas y técnicas que el sistema cubrirá, abarcando las siguientes áreas:
