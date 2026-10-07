@@ -31,7 +31,11 @@ Mediante un algoritmo de coincidencia (match), en el momento en que se detecta u
 
 #### 1.4.1. Objetivo general
 
-Diseñar, desarrollar e implementar una aplicación móvil multiplataforma que facilite la toma de decisiones grupales en la elección de películas, series y videojuegos, mediante una interfaz de deslizamiento de tarjetas (swipe) sincronizada en tiempo real entre múltiples dispositivos conectados a una misma sala virtual.
+Diseñar, desarrollar e implementar una aplicación móvil multiplataforma que permita al grupo decidir rápidamente que películas, series ver o que videojuegos jugar. El método de decisión será una pantalla con tarjetas que se deslizan (swipe) y que se sincroniza en tiempo real entre varios dispositivos conectados a una sala virtual.
+
+El objetivo es evitar la paralisis por elección grupal y que haya desacuerdos. Con esto se quiere reducir el tiempo que el grupo necesita para elegir. La aplicación dará un resultado en base a la tarjeta más elegida.
+
+La app detectará cuando varias tarjetas obtengan el mismo número de me gusta y propondrá más tarjetas para desempatar al grupo. También mostrará en qué plataforma está disponible, para que el grupo pueda jugar o ver de inmediato.
 
 #### 1.4.2. Objetivos específicos
 
