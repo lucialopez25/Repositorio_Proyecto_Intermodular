@@ -3,11 +3,46 @@
 ## 1. INTRODUCCIÓN
 
 ### 1.1. Contexto del proyecto
-En la última década, la industria del entretenimiento digital ha experimentado una transformación radical impulsada por la proliferación de plataformas de streaming (como Netflix, HBO Max, Disney+ o Prime Video) y de videojuegos (como Xbox Game Pass, PlayStation o Steam). Esta oferta masiva ha democratizado el acceso al contenido, pero también ha generado un fenómeno social recurrente en reuniones presenciales o de ocio compartido: la incapacidad de tomar decisiones grupales de manera ágil.
+Para la fundamentación teórica del proyecto, aplicamos un Análisis de Contexto Multinivel (Macro-Meso-Micro) basado en la Teoría de los Sistemas Ecológicos (Bronfenbrenner, 1979) y en los modelos de análisis sistémico sociotécnico. Esta metodología nos permite encuadrar el nacimiento de CoSwipe a través de tres niveles interconectados, desde las macrotendencias globales de consumo e interfaz hasta el escenario de interacción técnica síncrona.
 
-Paralelamente, el diseño de interfaces de usuario ha evolucionado con la adopción masiva de la mecánica de interacción mediante deslizamiento de tarjetas (swipe), popularizada originalmente por aplicaciones de citas como Tinder o Tiktok. Este patrón de diseño destaca por reducir ofrecer una respuesta visual inmediata y convertir procesos de decisión complejos en interacciones lúdicas e intuitivas.
+1.MACRO (Sistemas Globales): Transición al Streaming y UI/UX
 
-El presente proyecto nace de la convergencia de estas dos realidades: la necesidad de agilizar la elección de contenido de ocio en grupo y el aprovechamiento de una interfaz de swipe sincronizada en tiempo real.
+2.MESO (Entorno Social): Nuevos Hábitos de Convivencia
+
+3.MICRO (Interacción Técnica): Inmediadez y Sincronización
+
+4.PUNTO DE CONVERGENCIA: Proyecto CoSwipe
+
+
+
+**1. Nivel Macro (Macrosistema): Transformación de la Industria Digital y de las Interfaces**
+En la capa más global e institucional, la última década ha estado definida por dos grandes transformaciones tecnológicas:
+
+La consolidación de los modelos de suscripción masiva: La industria del entretenimiento ha migrado hacia catálogos unificados digitalmente. Servicios audiovisuales como Netflix, Disney+, Prime Video o HBO Max, junto con plataformas de distribución e integración de videojuegos como Steam, Xbox Game Pass y PlayStation Plus, han digitalizado el consumo de contenidos, centralizando miles de títulos en un único dispositivo.
+
+La estandarización de las interfaces gestuales (Swipe UI): En el ámbito del diseño de interacción, la mecánica de tarjetas deslizables (swiping) pasó de ser un recurso innovador en aplicaciones de citas (Tinder, 2012) a un patrón de interacción universal consolidado por plataformas de consumo rápido como TikTok. Este paradigma ha redefinido las expectativas visuales y gestuales de los usuarios, priorizando interacciones de bajo esfuerzo cognitivo y respuesta inmediata.
+
+
+**2. Nivel Meso (Mesosistema): Evolución de los Entornos de Socialización y Consumo Compartido**
+Al descender al nivel de los grupos de referencia y entornos sociales comunitarios (frecuentados por usuarios de la Generación Z y Millennials), se observan dos espacios dominantes de relación:
+
+Espacios de convivencia presencial: Reuniones en el hogar entre parejas o compañeros de piso compartido, donde la interacción con los contenidos se ejecuta de forma colectiva sobre la pantalla principal del hogar (Smart TV o consola).
+
+Entornos de convivencia digital: Servidores y canales de voz virtuales como Discord, que operan como el punto de reunión habitual para comunidades de amigos que buscan consumir partidas de videojuegos o sesiones de cine simultáneas a distancia.
+
+En ambos entornos, la interacción socio-técnica se caracteriza por ser multi-dispositivo y dinámica: los participantes interactúan individualmente desde sus terminales móviles mientras forman parte de la conversación grupal.
+
+
+**3. Nivel Micro (Microsistema): Arquitectura de Interacción Síncrona sin Fricción**
+En la escala técnica e individual, el diseño de aplicaciones móviles modernas se orienta hacia la eliminación de barreras de uso y la sincronización inmediata:
+
+Sincronización de estado en tiempo real: El avance en las arquitecturas cliente-servidor y la gestión de eventos síncronos permite conectar múltiples dispositivos móviles dentro de una misma sesión con latencias inapreciables.
+
+Diseño sin fricción de entrada (Zero-Friction UI): La tendencia en herramientas utilitarias efímeras prioriza la reducción de pasos previos. El acceso mediante códigos PIN, códigos QR o enlaces directos evita los flujos tradicionales de onboarding y creación de perfiles con correo electrónico, ajustándose a un uso inmediato.
+
+
+**4. Punto de Convergencia: El Nacimiento de CoSwipe**
+El proyecto CoSwipe se sitúa exactamente en la convergencia de estos tres niveles: adopta la madurez de los catálogos multimedia actuales (nivel Macro), aprovecha la familiaridad del patrón gestual swipe y la tecnología de sincronización en tiempo real (nivel Micro) para responder a las necesidades de interacción de los grupos sociales en entornos presenciales y virtuales (nivel Meso).
 
 ### 1.2. Problema o necesidad detectada
 El problema principal que aborda este proyecto es la parálisis por elección o choice overload que ocurre en reuniones sociales presenciales, ya sean parejas, grupos de amigos o familiares al intentar seleccionar una película, serie o videojuego para disfrutar en conjunto.
