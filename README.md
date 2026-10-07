@@ -165,19 +165,39 @@ Para determinar los objetivos específicos usamos  la metodología de desarrollo
    
 ### 1.5. Alcance del proyecto
 
-Para realizar el alcance del proyecto se utilizo la metodología de Análisis de Requisitos, la cual nos permitió identificar, clasificar y delimitar las áreas y técnicas que el sistema cubrirá, abarcando las siguientes áreas:
+Para determinar el alcance funcional del proyecto se ha aplicado la metodología de **Análisis de Requisitos**, la cual ha permitido identificar, clasificar y delimitar con precisión las áreas operativas del sistema, así como las técnicas necesarias para su implementación. 
 
-Módulo de Gestión de Salas: Creación, configuración, cierre y unión a salas mediante código numérico único de 4 a 6 dígitos o escaneo de código QR.  
+El sistema comprende los siguientes módulos y funcionalidades específicas:
 
-Módulo de Filtros Previos: Definición de parámetros de búsqueda (modo película/juego, plataformas de streaming/consola disponibles, número de jugadores y géneros.  
+#### 1. Módulo de Gestión de Salas
+Este módulo recoge la administración general del ciclo de vida de las salas:
+* **Creación y configuración:** Permite a un usuario (anfitrión) iniciar una nueva sala de decisión y establecer los parámetros iniciales de la sesión.
+* **Cierre de sala:** Gestión de la finalización de la sesión, ya sea por haber alcanzado un consenso (*Match*) o por la decisión voluntaria del anfitrión.
+* **Unión de participantes:** Mecanismo rápido e intuitivo para que los integrantes se unan a una sala a través de dos alternativas:
+  * Ingreso manual de un **código numérico único** (de 4 a 6 dígitos).
+  * **Escaneo de código QR** generado automáticamente por la aplicación al momento de que se cree la sala.
 
-Módulo de Interacción (Swipe): Interfaz gráfica interactiva para el deslizamiento de tarjetas con gestos táctiles, limitando el mazo a una cantidad optimizada de cartas por ronda.  
+#### 2. Módulo de Filtros Previos
+Permite acotar el catálogo de elementos visualizados según las preferencias colectivas o individuales configuradas antes de iniciar la ronda de selección:
+* **Selección de modo:** Opción para elegir entre la búsqueda de **películas** o **juegos**.
+* **Plataformas disponibles:** Filtro por proveedores de streaming de vídeo (para películas) o consolas/plataformas (para juegos) a las que los usuarios tienen acceso.
 
-Sincronización en Tiempo Real: Comunicación bi-direccional entre el servidor y los móviles de la sala para detectar coincidencias al instante.  
+#### 3. Módulo de Interacción (Swipe)
+Constituye el núcleo funcional de la experiencia de usuario dentro de la aplicación:
+* **Interfaz táctil e interactiva:** Diseño centrado en gestos táctiles (*swipe*) para indicar que le gusta o disguta la opción.
+* **Optimización de carga:** Limitación de cartas por ronda de selección, asegurando un rendimiento fluido y reduciendo el consumo de datos y recursos en el dispositivo móvil.
 
-Módulo de Resultados e Información: Pantalla de victoria (Match) que muestra las plataformas donde consumir el contenido.  
+#### 4. Sincronización en Tiempo Real
+* **Comunicación bidireccional:** Conexión continua entre el servidor central y las aplicaciones móviles conectadas a la misma sala.
+* **Detección instantánea de coincidencias:** Procesamiento en tiempo real de los votos de los integrantes para detectar de forma inmediata cuando existe un consenso (*Match*).
 
-Compatibilidad Multiplataforma: Despliegue funcional en dispositivos móviles Android e iOS.  
+#### 5. Módulo de Resultados e Información
+Encargado de presentar el desenlace de la ronda:
+* **Pantalla de Consenso (*Match*):** Notificación visual cuando los integrantes coinciden en una elección.
+* **Detalle de disponibilidad:** Muestra la información específica sobre las plataformas exactas donde se puede consumir la película o jugar al título seleccionado.
+
+#### 6. Compatibilidad y Despliegue Multiplataforma
+* **Cobertura de dispositivos:** Desarrollo y despliegue funcional garantizado para dispositivos móviles con sistemas operativos **Android** e **iOS**, manteniendo la consistencia de interfaz y comportamiento en ambas plataformas.  
 
 ### 1.6. Limitaciones y exclusiones
 
