@@ -45,16 +45,62 @@ Diseño sin fricción de entrada (Zero-Friction UI): La tendencia en herramienta
 El proyecto CoSwipe se sitúa exactamente en la convergencia de estos tres niveles: adopta la madurez de los catálogos multimedia actuales (nivel Macro), aprovecha la familiaridad del patrón gestual swipe y la tecnología de sincronización en tiempo real (nivel Micro) para responder a las necesidades de interacción de los grupos sociales en entornos presenciales y virtuales (nivel Meso).
 
 ### 1.2. Problema o necesidad detectada
-El problema principal que aborda este proyecto es la parálisis por elección o choice overload que ocurre en reuniones sociales presenciales, ya sean parejas, grupos de amigos o familiares al intentar seleccionar una película, serie o videojuego para disfrutar en conjunto.
+En los encuentros de ocio compartido, ya sea en una reunión presencial en el salón o en un canal de voz de Discord, la tarea de elegir qué contenido ver o a qué videojuego jugar suele convertirse en un proceso lento de navegación por múltiples catálogos que termina por agotar el tiempo libre del grupo.
 
-La parálisis por elección (o choice overload) es la incapacidad para tomar una decisión cuando se presenta un exceso de opciones o información, provocando un bloqueo a las personas que lo sufren
+**Definición de la parálisis por elección**
 
-Esta problemática se manifiesta a través de los siguientes factores:
+Este bloqueo responde a un fenómeno conocido en la psicología cognitiva como parálisis por elección (choice overload), el cual ocurre cuando el volumen excesivo de opciones disponibles sobrepasa la capacidad de procesamiento de la mente humana. Lejos de aumentar la satisfacción o dar libertad al usuario, la sobreoferta produce una elevada carga cognitiva y una acusada fatiga de decisión. Ante cientos de títulos al alcance de un clic, las personas entran en un estado de cuestionamiento continuo por temor a tomar una decisión mediocre, lo que posterga la elección, genera dudas en el grupo y reduce significativamente el disfrute de la experiencia final.
 
-* **Pérdida de tiempo:** Inversión de períodos prolongados (a menudo superiores a 30 minutos) navegando por los catálogos de distintas plataformas sin llegar a un acuerdo.
-* **Fricción e indecisión grupal:** Conflictos o discusiones derivadas de opiniones encontradas, donde el debate abierto perjudica la experiencia de ocio.
-* **Sesgo de visibilidad:** Tendencia a elegir siempre los mismos títulos o recomendaciones principales de las plataformas por fatiga de búsqueda, ignorando opciones del catálogo que complacerían a todos.
-* **Ausencia de herramientas:** Inexistencia de una solución unificada que aplique esta dinámica tanto al sector cinematográfico como al de los videojuegos multijugador o cooperativos locales.
+**Métodos de investigación del problema y resultados**
+
+Para comprobar si esta parálisis por elección afectaba de forma real y medible a nuestros usuarios potenciales, aplicamos la metodología de investigación cualitativa conocida como The Mom Test, desarrollada por Rob Fitzpatrick. La regla fundamental de este marco radica en no mencionar jamás la idea de la aplicación ni el producto propuesto, sino enfocar las preguntas exclusivamente en comportamientos pasados, hábitos reales y dificultades sufridas por los entrevistados. De esta manera, se evitan respuestas falsas dadas por compromiso, cortesía o promesas de uso futuro que rara vez se cumplen.
+
+Llevamos a cabo 10 entrevistas individuales a personas de entre 18 y 31 años y los resultados confirmaron una presencia masiva del problema: un 90% de los participantes (9 de cada 10) afirmó haber sufrido discusiones o bloqueos al intentar ponerse de acuerdo, calculándose una pérdida media de 32,5 minutos por cada intento de elección antes de iniciar la actividad. Esta frustración quedó reflejada en testimonios directos de los usuarios, quienes señalaban que en Discord pueden pasar 20 minutos preguntando a qué jugar hasta que la gente termina saliéndose del canal de voz, que en los pisos compartidos siempre acaba decidiendo la misma persona, o que en pareja se tarda más tiempo viendo los tráilers que la propia película.
+
+Para profundizar en el estado emocional y conductual de los usuarios durante estos momentos de bloqueo, sintetizamos la información obtenida mediante un Mapa de Empatía (Empathy Map), una herramienta propia del Design Thinking que organiza los hallazgos en torno a lo que el usuario piensa, siente, oye, ve, dice y hace.
+
+A través de esta perspectiva, observamos que el usuario nota constantemente que está perdiendo su tiempo de ocio y siente pereza ante la idea de iniciar otra discusión, por lo que su único deseo es empezar a jugar o ver algo de inmediato. En su entorno escucha con frecuencia comentarios como "Entrad a voz y decidimos", "A mí me da igual lo que pongáis" o "Ese juego a mí no me va", mientras observa catálogos infinitos en la televisión o en bibliotecas como Steam, con sus amigos distraídos con el móvil en el sofá o desconectándose de la llamada. Como consecuencia, el usuario navega sin rumbo por los menús y acaba cediendo por mero agotamiento ante la opción que impone el miembro más insistente del grupo.
+
+De este análisis emergieron sus principales puntos de dolor:
+
+- Catálogos infinitos: Saturación de opciones en Smart TV y Steam
+
+- Decisión impuesta: Cansancio que lleva a ceder ante el más insistente
+
+- Fricción de registros: Rechazo a crear cuentas para salas puntuales
+
+Por contraposición, lo que el usuario desea conseguir es:
+
+- Decisión rápida: Conclusión de voto en menos de 3 minutos
+
+- Voto democrático: Algoritmo imparcial donde todos cuentan igual
+
+- Acceso directo: Entrada por código PIN, QR o enlace sin registro
+
+**Análisis de competencia**
+
+Para analizar por qué las herramientas existentes no han resuelto este problema, hemos utilizado la metodología de minería de reseñas (Review Mining). Esta técnica consiste en recopilar, analizar y categorizar opiniones negativas (de 1 a 3 estrellas) dejadas por los usuarios en tiendas de aplicaciones como Google Play y App Store. En nuestro caso, extrajimos 100 reseñas de competidores directos e indirectos (TasteMates, Movie Fwd, JustWatch y Reelgood) para identificar los principales puntos de fallo de la competencia:
+
+- 42% — Registro e inicio de sesión obligatorio: El motivo principal por el que los usuarios borran la aplicación antes de usarla en grupo.
+
+- 28% — Fallos de sincronización: Desconexiones y errores en el directo de la sala.
+
+- 18% — Ausencia de videojuegos: Limitación exclusiva a cine y series.
+
+- 12% — Restricciones regionales: Contenido mostrado no disponible en la zona geográfica.
+
+
+**Síntesis de la necesidad detectada**
+
+A partir de las carencias del mercado identificadas mediante la minería de reseñas (Review Mining) y los datos obtenidos en la investigación cualitativa de campo, se evidencia la necesidad clara de desarrollar una herramienta digital síncrona, imparcial y multiplataforma que:
+
+- Reduzca el tiempo de decisión de más de 30 minutos a menos de 3 minutos.
+
+- Elimine el registro obligatorio (0% fricción) permitiendo unirse mediante código PIN, QR o enlace, resolviendo directamente el principal motivo de rechazo detectado en el análisis de reseñas de la competencia.
+
+- Centralice los catálogos de Cine, Series y Videojuegos en una misma interfaz interactiva.
+
+
 ### 1.3. Propuesta de solución
 La solución propuesta consiste en el diseño y desarrollo de una aplicación móvil multiplataforma que automatiza el proceso de toma de decisiones en grupo.  
 
