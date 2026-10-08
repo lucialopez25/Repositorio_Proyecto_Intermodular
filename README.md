@@ -253,7 +253,19 @@ Encargado de presentar el desenlace de la ronda:
 * **Detalle de disponibilidad:** Muestra la información específica sobre las plataformas exactas donde se puede consumir la película o jugar al título seleccionado.
 
 #### 6. Compatibilidad y Despliegue Multiplataforma
-* **Cobertura de dispositivos:** Desarrollo y despliegue funcional garantizado para dispositivos móviles con sistemas operativos **Android** e **iOS**, manteniendo la consistencia de interfaz y comportamiento en ambas plataformas.  
+* **Cobertura de dispositivos:** Desarrollo y despliegue funcional garantizado para dispositivos móviles con sistemas operativos **Android** e **iOS**, manteniendo la consistencia de interfaz y comportamiento en ambas plataformas.
+
+#### 7. Obligaciones fiscales y laborales
+Cumplimiento de impuestos (IVA, IRPF) y normativa laboral vigente para el equipo de desarrollo.
+
+#### 8. Prevención de Riesgos Laborales (PRL)
+Plan básico de prevención enfocado en riesgos ergonómicos y visuales por el uso prolongado de ordenadores.
+
+#### 9. Organización económica y subvenciones
+Estimación de costes (servidores, licencias) y solicitud de subvenciones públicas para nuevas tecnologías.
+
+#### 10. Derechos de propiedad intelectual
+La app, su código y diseño son propiedad exclusiva de los desarrolladores.
 
 ### 1.6. Limitaciones y exclusiones
 
