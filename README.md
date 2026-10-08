@@ -3,17 +3,67 @@
 ## 1. INTRODUCCIÓN
 
 ### 1.1. Contexto del proyecto
-Para la fundamentación teórica del proyecto, aplicamos un Análisis de Contexto Multinivel (Macro-Meso-Micro) basado en la Teoría de los Sistemas Ecológicos (Bronfenbrenner, 1979) y en los modelos de análisis sistémico sociotécnico. Esta metodología nos permite encuadrar el nacimiento de CoSwipe a través de tres niveles interconectados, desde las macrotendencias globales de consumo e interfaz hasta el escenario de interacción técnica síncrona.
+
+### **Contexto del Proyecto**
+
+El proyecto CoSwipe se enmarca en el sector productivo de las Tecnologías de la Información y la Comunicación (TIC), concretamente en la industria del Desarrollo de Software y la Distribución Digital de Contenidos de Entretenimiento (Media & Gaming).
+
+Para comprender el entorno donde opera el proyecto, es necesario clasificar las empresas del sector según sus características organizativas y el tipo de producto o servicio que ofrecen:
+
+**Clasificación de Empresas del Sector**
+
+- Plataformas de Streaming Audiovisual (SVOD - Subscription Video on Demand):
+
+> Ejemplos: Netflix, Amazon Prime Video, Disney+, Max (HBO).
+
+> Tipo de producto/servicio: Suscripción periódica para acceso ilimitado a catálogos cerrados de películas, series y documentales bajo demanda.
+
+> Características organizativas: Grandes multinacionales tecnológicas con estructuras jerárquicas y divisionales por región geográfica. Operan con modelos intensivos en capital para producción de contenido original y mantenimiento de infraestructura en la nube (CDN).
+
+- Plataformas de Distribución Digital de Videojuegos:
+
+> Ejemplos: Valve (Steam), Epic Games Store, Microsoft (Xbox Game Pass), Sony (PlayStation Store).
+
+> Tipo de producto/servicio: Venta directa de licencias digitales de videojuegos, servicios de juego por suscripción y juego en la nube (Cloud Gaming).
+
+> Características organizativas: Empresas del sector tecnológico/videojuegos con estructuras matriciales altamente especializadas en desarrollo de software, gestión de comunidades y licencias con desarrolladores independientes (indies) y publishers AAA.
+
+- Plataformas de Guía, Agregación e Intermediación de Contenidos (Discovery & Utility Apps):
+
+> Ejemplos: JustWatch, Reelgood, TasteMates.
+
+> Tipo de producto/servicio: Aplicaciones B2C utilitarias que agregan metadatos de múltiples plataformas para ofrecer motores de búsqueda unificados, guías de disponibilidad regional y sistemas de recomendación.
+
+> Características organizativas: Startups o PyMEs tecnológicas con estructuras organizativas ágiles (Flat / Lean Organization), enfocadas en el desarrollo rápido de producto, analítica de datos (Big Data) y monetización mediante afiliación o publicidad B2B.
+
+**Estructura Organizativa y Funciones Departamentales de una Empresa Tipo del Sector**
+
+Una empresa representativa del sector de desarrollo de herramientas de agregación y software multimedia presenta la siguiente estructura funcional:
+
+- Departamento de Producto (UI/UX & Product Management):
+
+> Funciones: Definir la visión del producto, diseñar los flujos de experiencia de usuario (UX), elaborar prototipos de interfaz (UI), analizar métricas de retención de usuarios y priorizar el mapa de características (roadmap).
+
+- Departamento de Ingeniería y Desarrollo de Software:
+
+> Funciones: Construir la arquitectura de software (frontend móvil y backend), implementar APIs de integración con bases de datos de terceros (TMDB, IGDB), gestionar la infraestructura de servidores síncronos en la nube y asegurar la escalabilidad del sistema.
+
+- Departamento de Marketing y Analítica de Datos (Growth & BI):
+
+> Funciones: Diseñar estrategias de adquisición y retención de usuarios, analizar patrones de consumo mediante inteligencia de negocio (Business Intelligence) y gestionar la presencia en tiendas de aplicaciones (ASO - App Store Optimization).
+
+- Departamento de Desarrollo de Negocio y Asuntos Legales:
+
+> Funciones: Negociar acuerdos de afiliación con las plataformas de streaming, asegurar el cumplimiento normativo de protección de datos (RGPD) y gestionar licencias de propiedad intelectual relativas al uso de marcas y portadas.
+
+**Análisis de Contexto Multinivel (Macro-Meso-Micro)**
+
+Para la fundamentación teórica del proyecto, aplicamos un Análisis de Contexto Multinivel (Macro-Meso-Micro) basado en la Teoría de los Sistemas Ecológicos (Bronfenbrenner, 1979). Esta metodología nos permite encuadrar el nacimiento de CoSwipe a través de tres niveles interconectados, desde las macrotendencias globales de consumo e interfaz hasta el escenario de interacción técnica síncrona.
 
 1.MACRO (Sistemas Globales): Transición al Streaming y UI/UX
-
 2.MESO (Entorno Social): Nuevos Hábitos de Convivencia
-
 3.MICRO (Interacción Técnica): Inmediadez y Sincronización
-
 4.PUNTO DE CONVERGENCIA: Proyecto CoSwipe
-
-
 
 **1. Nivel Macro (Macrosistema): Transformación de la Industria Digital y de las Interfaces**
 En la capa más global e institucional, la última década ha estado definida por dos grandes transformaciones tecnológicas:
