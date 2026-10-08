@@ -273,3 +273,5 @@ El sistema comprende los siguientes módulos y funcionalidades específicas:
 | **9. Manuales de Uso** | Se incluye la documentación necesaria para instalar, utilizar y mantener la aplicación. Este capítulo recoge el manual de instalación, el manual técnico, el manual de usuario y, cuando sea necesario, la guía de administración y las soluciones a problemas habituales. |
 | **10. Resultados y Evaluación Final** | Se presentan los resultados obtenidos tras desarrollar CoSwipe y se analiza si se han cumplido los objetivos y requisitos establecidos inicialmente. También se valora el beneficio que aporta la aplicación a los usuarios, las diferencias entre lo planificado y lo realizado, las dificultades encontradas y las competencias utilizadas durante el proyecto. |
 | **11. Conclusiones y Líneas Futuras** | Se recogen las principales conclusiones obtenidas durante el desarrollo del proyecto. Además, se plantean posibles mejoras y formas de ampliar o hacer evolucionar CoSwipe en el futuro, junto con una reflexión final sobre los conocimientos y competencias adquiridos. |
+
+*Fecha de entrega: 08/10/2026*
