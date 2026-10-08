@@ -277,3 +277,5 @@ El sistema comprende los siguientes módulos y funcionalidades específicas:
 *Fecha de entrega: 08/10/2026*
 
 *Enlace presentación:* https://www.canva.com/design/DAHXcNGoiKE/E0Q2G6eIlA9kBFpWO5-rNg/edit?ui=eyJBIjp7fX0
+
+*Enlace prototipo movil:* https://www.figma.com/make/YTBKo1f3rATNGqKR7VOkQe/CoSwipe-Mobile-App-Prototype?code-node-id=0-6&p=f&t=bKVoefMnEjmx2hui-0&fullscreen=1
