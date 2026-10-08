@@ -195,7 +195,7 @@ A través de un motor de sincronización síncrono, el sistema evalúa los votos
 
 #### 1.4.1. Objetivo general
 
-Diseñar, desarrollar e implementar una aplicación móvil multiplataforma que permita al grupo decidir rápidamente que películas, series ver o que videojuegos jugar. El método de decisión será una pantalla con tarjetas que se deslizan (swipe) y que se sincroniza en tiempo real entre varios dispositivos conectados a una sala virtual.
+Desarrollar una aplicación móvil multiplataforma que permita al grupo decidir rápidamente que películas, series ver o que videojuegos jugar. El método de decisión será una pantalla con tarjetas que se deslizan (swipe) y que se sincroniza en tiempo real entre varios dispositivos conectados a una sala virtual.
 
 El objetivo es evitar la paralisis por elección grupal y que haya desacuerdos. Con esto se quiere reducir el tiempo que el grupo necesita para elegir. La aplicación dará un resultado en base a la tarjeta más elegida.
 
@@ -205,8 +205,8 @@ La app detectará cuando varias tarjetas obtengan el mismo número de me gusta y
 
 Para determinar los objetivos específicos usamos  la metodología de desarrollo más usada de la industria , la metodología SCRUM que nosotros hemos adaptado a nuestro proyecto de la siguiente manera:
 
-1. **Análisis y Diseño :** Diseñar un prototipo visual de todas las pantallas de la aplicación, incluido el login, apoyándose en un estudio comparativo (benchmarking) de aplicaciones similares y en un análisis de la curva de aprendizaje del usuario. Para esto apoyarnos en aplicaciones como Figma.
-2. **Tecnología :** Seleccionar el lenguaje de desarrollo más adecuado para nosotros (Dart o Kotlin) y aplicar una arquitectura MVC
+1. **Análisis y Diseño :** Diseñar un prototipo visual de todas las pantallas de la aplicación, apoyándose en un estudio comparativo (benchmarking) de aplicaciones similares y en un análisis de la curva de aprendizaje del usuario. Para esto apoyarnos en aplicaciones como Figma.
+2. **Tecnología :** Seleccionar el lenguaje de desarrollo más adecuado para nosotros (Dart o Kotlin) para hacer la app móvil , usar Swing/Matisse para la de escritorio y aplicar la arquitectura Modelo-Vista-Controlador.
 3. **Implementación :** de la interfaz: Implementar el algoritmo de coincidencia (match) y la funcionalidad de elección (swipe) sobre datos simulados.
 4. **Datos:** Diseñar la base de datos y analizar qué tipo de SGBD se adapta mejor al proyecto (por ejemplo, MongoDB frente a una base de datos relacional).
 5. **Servidor:** Analizar y seleccionar la capa de servidor más adecuada, teniendo en cuenta el acceso a datos, la sincronización de resultados en tiempo real entre usuarios y la protección de datos, especialmente en el login.
