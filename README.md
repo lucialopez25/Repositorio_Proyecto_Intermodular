@@ -203,7 +203,7 @@ A través de un motor de sincronización síncrono, el sistema evalúa los votos
 
 Desarrollar una aplicación móvil multiplataforma que permita al grupo decidir rápidamente que películas, series ver o que videojuegos jugar. El método de decisión será una pantalla con tarjetas que se deslizan (swipe) y que se sincroniza en tiempo real entre varios dispositivos conectados a una sala virtual.
 
-El objetivo es evitar la paralisis por elección grupal y que haya desacuerdos. Con esto se quiere reducir el tiempo que el grupo necesita para elegir. La aplicación dará un resultado en base a la tarjeta más elegida.
+El objetivo es evitar la paralisis por elección grupal y que haya desacuerdos. Con esto se quiere reducir el tiempo que el grupo necesita para elegir. La aplicación dará un resultado en base a la tarjeta más elegida.Con esto pretendemos reducir el tiempo de elección de 30 a 3 min aprox.
 
 La app detectará cuando varias tarjetas obtengan el mismo número de me gusta y propondrá más tarjetas para desempatar al grupo. También mostrará en qué plataforma está disponible, para que el grupo pueda jugar o ver de inmediato.
 
