@@ -275,3 +275,4 @@ El sistema comprende los siguientes módulos y funcionalidades específicas:
 | **11. Conclusiones y Líneas Futuras** | Se recogen las principales conclusiones obtenidas durante el desarrollo del proyecto. Además, se plantean posibles mejoras y formas de ampliar o hacer evolucionar CoSwipe en el futuro, junto con una reflexión final sobre los conocimientos y competencias adquiridos. |
 
 *Fecha de entrega: 08/10/2026*
+*Enlace presentación:* https://www.canva.com/design/DAHXcNGoiKE/E0Q2G6eIlA9kBFpWO5-rNg/edit?ui=eyJBIjp7fX0
