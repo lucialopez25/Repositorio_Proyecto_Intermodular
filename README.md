@@ -214,7 +214,7 @@ Para determinar los objetivos específicos usamos  la metodología de desarrollo
 1. **Análisis y Diseño :** Diseñar un prototipo visual de todas las pantallas de la aplicación, apoyándose en un estudio comparativo (benchmarking) de aplicaciones similares y en un análisis de la curva de aprendizaje del usuario. Para ello nos apoyaremos en aplicaciones como Figma.
 2. **Tecnología :** Seleccionar el lenguaje de desarrollo más adecuado para nosotros (Dart o Kotlin) para hacer la app móvil , usar Swing/Matisse para la de escritorio y aplicar la arquitectura Modelo-Vista-Controlador.
 3. **Implementación :** de la interfaz: Implementar el algoritmo de coincidencia (match) y la funcionalidad de elección (swipe).
-4. **Datos:** Diseñar la base de datos y analizar qué tipo de SGBD se adapta mejor al proyecto, Comparar MongoDB vs MySQL/PostgreSQL en términos de escalabilidad, consultas y facilidad de integración y seleccionar SGBD.
+4. **Datos:** Diseñar la base de datos y analizar qué tipo de SGBD se adapta mejor al proyecto, Comparar MongoDB vs MySQL/PostgreSQL en términos de escalabilidad, consultas y facilidad de integración y seleccionarlo.
 5. **Servidor:** Comparar tecnologías de backend (Node.js, Spring Boot, Firebase, etc.) según necesidades del proyecto. Escoger API rest a usar para las tarjetas y funcionalidad de salas. 
 6. **Integración:** Implementar la gestión de salas sincronizadas conectando la aplicación con la base de datos y el servidor.
 7. **Pruebas:** Pruebas, corrección de errores y versión final.
