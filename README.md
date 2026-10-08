@@ -128,6 +128,7 @@ Por contraposición, lo que el usuario desea conseguir es:
 
 - Acceso directo: Entrada por código PIN, QR o enlace sin registro
 
+
 **Análisis de competencia**
 
 Para analizar por qué las herramientas existentes no han resuelto este problema, hemos utilizado la metodología de minería de reseñas (Review Mining). Esta técnica consiste en recopilar, analizar y categorizar opiniones negativas (de 1 a 3 estrellas) dejadas por los usuarios en tiendas de aplicaciones como Google Play y App Store. En nuestro caso, extrajimos 100 reseñas de competidores directos e indirectos (TasteMates, Movie Fwd, JustWatch y Reelgood) para identificar los principales puntos de fallo de la competencia:
@@ -150,6 +151,11 @@ A partir de las carencias del mercado identificadas mediante la minería de rese
 - Elimine el registro obligatorio (0% fricción) permitiendo unirse mediante código PIN, QR o enlace, resolviendo directamente el principal motivo de rechazo detectado en el análisis de reseñas de la competencia.
 
 - Centralice los catálogos de Cine, Series y Videojuegos en una misma interfaz interactiva.
+
+**Desde la perspectiva del sector** 
+
+Esta problemática impacta directamente en la estructura organizativa de las empresas de entretenimiento; mientras los departamentos de Producto y Experiencia de Usuario (UI/UX) detectan altas tasas de abandono cuando la gente se cansa de buscar en los menús, los departamentos de Negocio y Marketing ven reducida la efectividad para dar a conocer sus catálogos. Esta situación abre una clara oportunidad de negocio en el sector de las tecnologías para un modelo utilitario de intermediación B2C (Business to Consumer, enfocado en ofrecer una herramienta directa y práctica al usuario final) y B2B (Business to Business, enfocado en conectar y redirigir clientes hacia las propias plataformas de streaming y tiendas de videojuegos). Este modelo permite capturar tráfico de alta intención de consumo (grupos de personas que ya están reunidas y listas para ver algo o jugar de inmediato). Para dar respuesta a estas demandas, se requiere un proyecto de desarrollo de software utilitario y síncrono (donde todos los móviles conectados se actualizan al mismo tiempo), orientado por características específicas como la creación de salas efímeras sin registro con acceso por PIN (código de 4 dígitos) o QR (código de escaneo rápido con la cámara), el despliegue de un motor de coincidencia (Match) en tiempo real, la unificación de catálogos de cine, series y videojuegos, y el diseño de una interfaz gestual Swipe UI (pantalla con tarjetas interactivas que se deslizan a los lados con el dedo) de baja carga mental que permita decidir en menos de 3 minutos.
+
 
 
 ### 1.3. Propuesta de solución
