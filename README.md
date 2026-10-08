@@ -285,6 +285,19 @@ Red social persistente: En esta versión del proyecto no se incluirá un sistema
 
 ### 1.7. Estructura de la memoria
 
+| Capítulo | Contenido y enfoque|
+|---|---|
+| **1. Introducción** | Se presenta el proyecto CoSwipe y su contexto, explicando el problema que se ha detectado, la solución propuesta, los objetivos que se quieren conseguir, el alcance del proyecto y sus principales limitaciones y exclusiones. |
+| **2. Análisis del Contexto y Viabilidad** | Se analiza el sector en el que se encuentra el proyecto y los usuarios a los que está dirigido. También se estudian las soluciones existentes, las partes interesadas y la viabilidad técnica, económica y legal de desarrollar CoSwipe, además de los posibles riesgos iniciales. |
+| **3. Planificación y Gestión del Proyecto** | Se explica cómo se ha organizado el desarrollo del proyecto utilizando Scrum, incluyendo el reparto de tareas y responsabilidades, los roles del equipo, la planificación del trabajo, los recursos necesarios, el presupuesto, la gestión de riesgos y las herramientas utilizadas para coordinar y realizar el seguimiento del proyecto. |
+| **4. Análisis de Requisitos** | Se identifican los distintos tipos de usuarios y se definen las funcionalidades que debe tener CoSwipe, junto con los requisitos no funcionales y las reglas de negocio. También se incluyen los casos de uso o historias de usuario, la prioridad de los requisitos y su relación con las funcionalidades del sistema. |
+| **5. Diseño de la Solución** | Se describe cómo se ha planteado técnicamente CoSwipe, incluyendo su arquitectura, los diferentes componentes y módulos, el diseño de la base de datos y de la interfaz de usuario. También se trata el diseño de seguridad y la conexión con las APIs y servicios externos utilizados por la aplicación. |
+| **6. Desarrollo e Implementación** | Se detallan las tecnologías, lenguajes y herramientas utilizadas para desarrollar CoSwipe. También se explica cómo se ha organizado el código y cómo se han implementado las principales funcionalidades, la gestión de datos, la interfaz, las integraciones externas y las dependencias del proyecto. |
+| **7. Pruebas y Aseguramiento de la Calidad** | Se recoge el proceso utilizado para comprobar que la aplicación funciona correctamente. Se incluyen las diferentes pruebas realizadas, como las pruebas unitarias, de integración y funcionales, además de las comprobaciones de usabilidad, accesibilidad y seguridad. También se muestran los errores encontrados, las soluciones aplicadas y el grado de cumplimiento de los requisitos. |
+| **8. Despliegue y Puesta en Producción** | Se explica todo lo relacionado con la preparación de CoSwipe para su ejecución y despliegue. Se incluyen los requisitos de instalación, la configuración necesaria, el proceso de despliegue, las comunicaciones seguras, las copias de seguridad, la monitorización y las tareas de mantenimiento. |
+| **9. Manuales de Uso** | Se incluye la documentación necesaria para instalar, utilizar y mantener la aplicación. Este capítulo recoge el manual de instalación, el manual técnico, el manual de usuario y, cuando sea necesario, la guía de administración y las soluciones a problemas habituales. |
+| **10. Resultados y Evaluación Final** | Se presentan los resultados obtenidos tras desarrollar CoSwipe y se analiza si se han cumplido los objetivos y requisitos establecidos inicialmente. También se valora el beneficio que aporta la aplicación a los usuarios, las diferencias entre lo planificado y lo realizado, las dificultades encontradas y las competencias utilizadas durante el proyecto. |
+| **11. Conclusiones y Líneas Futuras** | Se recogen las principales conclusiones obtenidas durante el desarrollo del proyecto. Además, se plantean posibles mejoras y formas de ampliar o hacer evolucionar CoSwipe en el futuro, junto con una reflexión final sobre los conocimientos y competencias adquiridos. |
 
 
 
