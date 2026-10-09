@@ -258,7 +258,7 @@ El sistema comprende los siguientes módulos y funcionalidades específicas:
 * **Cambios en la disponibilidad del contenido:** La disponibilidad de películas, series y videojuegos en las diferentes plataformas podrá variar con el tiempo debido a cambios en los catálogos, acuerdos de distribución o condiciones de servicio de dichas plataformas.
 * **Red social persistente:** En esta versión del proyecto no se incluirá un sistema de mensajería interna, chat global ni listas de amigos permanentes entre salas.
 
-### 1.7. Estructura de la memoria
+## 1.7. Estructura de la memoria
 
 | Capítulo | Contenido y enfoque |
 |---|---|
